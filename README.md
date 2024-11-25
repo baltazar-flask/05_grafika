@@ -1,0 +1,2 @@
+Dodavanje slike
+Dodavanje ikone

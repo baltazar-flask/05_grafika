@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flask sa favicon ikonom</title>
+    <!-- Link do favicon ikone -->
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='marshall_paw.ico') }}"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    {% include 'header.html' %}
+    <h1>Dobrodošli u Flask aplikaciju sa ikonom!</h1>
+    {% include 'footer.html' %}
+  </body>
+</html>
